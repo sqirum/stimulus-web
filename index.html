@@ -5,38 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top main-nav">
+            <div class="container-lg">
+              <a class="navbar-brand" href="#"><h1>Stimulus</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
+                  <a class="nav-link" href="#" id="about">About Me</a>
+                  <a class="nav-link" href="#" id="experiences">Experiences</a>
+                  <a class="nav-link" href="#" id="testimonial">Testimonial</a>
+                  <a class="nav-link" href="#" id="contact">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
     <section id="home">
-        
         <div class="container-fluid">
-            <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-lg">
-                      <a class="navbar-brand" href="#">Stimulus</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                          <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
-                          <a class="nav-link" href="#" id="about">About Me</a>
-                          <a class="nav-link" href="#" id="experiences">Experiences</a>
-                          <a class="nav-link" href="#" id="testimonial">Testimonial</a>
-                          <a class="nav-link" href="#" id="contact">Contact</a>
-                        </div>
-                      </div>
-                    </div>
-                  </nav>
-            </header>
+            
             <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6 home-bg">
-
+                <div class="col-lg-6 p-0">
+                    <div class="home-img"></div>
+                </div>
+                <div class="col-lg-6 align-self-center py-5 py-lg-0">
+                    <div class="home-text align-items-center px-4">
+                      <h5 class="lead text-uppercase my-3">Welcome to my website</h5>
+                      <h2 class="display-5 my-3">Hello, I am <strong>Stimulus</strong> currently based in New York city.</h2>
+                      <p class="my-3">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</p>
+                      <a href="#" class="btn btn-lg btn-outline-dark border-3 fw-bold text-uppercase rounded-pill my-3">get started</a>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 py-5 bg-light">
+            <h2>Donec Autor</h2>
+            <p class="lead">Sed vulputate vitae diam quis bibendum</p>
+            <p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.</p>
+            <p>Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="about-img">
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 p-5 pro-bars">
+            <h2 class="display-5 text-white">My Skills</h2>
+            <p class="text-white">Photoshop . HTML CSS JS . Web Design</p>
+            PROGRESS BARS
+          </div>
+        </div>
+      </div>
     </section>
 </body>
 </html>

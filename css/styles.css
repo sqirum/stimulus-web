@@ -1,7 +1,3 @@
-.home-bg {
-  background-color: #f1e2d7;
-}
-
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11959,5 +11955,88 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header nav.main-nav h1, header nav.main-nav .h1 {
+  color: #333;
+  text-shadow: 1px 1px #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+}
+
+header nav.main-nav .nav-link:hover {
+  color: #E3AE57 !important;
+}
+
+header nav.main-nav .nav-link:focus {
+  color: #E3AE57 !important;
+}
+
+section#home {
+  background-color: #f1e2d7;
+}
+
+section#home .home-img {
+  background: url(/img/home-img.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+}
+
+section#home h5, section#home .h5 {
+  color: #999;
+}
+
+section#home p {
+  color: #888;
+}
+
+section#home a.btn {
+  border: 3px solid #232B2B;
+  font-size: 0.8em;
+  outline: 0;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+section#home a.btn:hover {
+  background: #E3AE57;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border: 3px solid #E3AE57;
+  outline: 0;
+}
+
+section#home a.btn:active {
+  background: #449d44;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  outline: 0;
+  border: 3px solid #449d44;
+}
+
+section#about p {
+  color: #888;
+}
+
+section#about p.lead {
+  color: #e3ae57;
+}
+
+section#about .about-img {
+  background-size: cover;
+  background: url(/img/about-img.jpg) no-repeat;
+  width: 100%;
+}
+
+section#about .pro-bars {
+  background-color: #E3AE57;
 }
 /*# sourceMappingURL=styles.css.map */
