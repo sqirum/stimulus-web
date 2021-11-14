@@ -11962,6 +11962,14 @@ body {
   scroll-behavior: smooth;
 }
 
+.bg-yellow {
+  background-color: #E3AE57 !important;
+}
+
+.bg-orange {
+  background-color: #E9724C !important;
+}
+
 header nav.main-nav h1, header nav.main-nav .h1 {
   color: #333;
   text-shadow: 1px 1px #fff;
@@ -12038,5 +12046,57 @@ section#about .about-img {
 
 section#about .pro-bars {
   background-color: #E3AE57;
+}
+
+section#about i {
+  font-size: 3em;
+}
+
+section#experiences .experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#experiences .experience h3, section#experiences .experience .h3 {
+  margin: 0;
+}
+
+section#experiences .experience h3 span, section#experiences .experience .h3 span {
+  color: #633;
+  font-weight: bold;
+  font-size: 0.6em;
+}
+
+section#experiences .experience p {
+  margin: 0;
+}
+
+section#experiences .experience .experience-img {
+  background: url(/img/home-img.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+}
+
+section#experiences .education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#experiences .education h3, section#experiences .education .h3 {
+  margin: 0;
+}
+
+section#experiences .education h3 span, section#experiences .education .h3 span {
+  color: #886D1E;
+  font-weight: bold;
+  font-size: 0.6em;
+}
+
+section#experiences .education p {
+  margin: 0;
 }
 /*# sourceMappingURL=styles.css.map */
