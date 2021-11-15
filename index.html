@@ -59,8 +59,13 @@
             <p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.</p>
             <p>Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="about-img">
+          <div class="col-sm-6 col-md-3 p-0">
+            <div class="img-fluid bg-image" style="
+              background: url('/img/about-img.jpg');
+              height: 100%;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: 50% 50%;">
             </div>
           </div>
           <div class="col-sm-6 col-md-3 p-5 pro-bars">
@@ -96,8 +101,13 @@
 
     <section id="experiences">
       <div class="row bg-orange text-white">
-        <div class="col-lg-6">
-          <div class="img-fluid experience-img">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis nulla vero ad labore. Dicta facilis voluptatem tempora dolores ut obcaecati minima velit consectetur, debitis qui molestiae, sint odit asperiores sunt possimus earum ipsam officia illum? Et iure maxime nostrum impedit, sit facilis ad reiciendis laboriosam maiores minima eius? Quasi, eius!</div>
+        <div class="col-lg-6 p-0">
+          <div class="img-fluid bg-image" style="
+            background: url('/img/experience-img.jpg');
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;"></div>
         </div>
         <div class="col-lg-6 p-5">
           <h2 class="display-5">My Experiences</h2>
@@ -137,10 +147,76 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="img-fluid education-img">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis nulla vero ad labore. Dicta facilis voluptatem tempora dolores ut obcaecati minima velit consectetur, debitis qui molestiae, sint odit asperiores sunt possimus earum ipsam officia illum? Et iure maxime nostrum impedit, sit facilis ad reiciendis laboriosam maiores minima eius? Quasi, eius!</div>
+        <div class="col-lg-6 p-0">
+          <div class="img-fluid bg-image" style="
+            background: url('/img/education-img.jpg'); 
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            "></div>
         </div>
       </div>
     </section>
+
+    <section id="testimonial" class="img-fluid bg-image" style="
+      background-image: url('/img/quotes-bg.jpg');
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;">
+      <div class="overlay"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-10 offset-1 text-center py-5">
+            <i class="fa fa-star text-white fs-1 my-3"></i>
+            <h2 class="text-white my-3">Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</h2>
+            <p class="text-white-50 mt-3">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row bg-orange">
+          <div class="col-lg-6 p-4">
+            <div class="contact-form text-white">
+              <h2 class="display-5">Say hello..</h2>
+              <p class="mb-5">Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.</p>
+              <input type="text" placeholder="Your Name" class="form-control my-3">
+              <input type="email" placeholder="Your Email" class="form-control my-3">
+              <textarea rows="5" placeholder="Write your message" class="form-control my-3"></textarea>
+              <button class="btn btn-primary rounded-pill px-5 mt-3">Send</button>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 p-0">
+            <div class="img-fluid bg-image" style="
+              background-image:url('/img/contact-img.jpg');
+              background-position: 50% 50%;
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 100%;">
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 bg-dark p-4 text-white location">
+            <h3 class="fw-light">Visit my office</h3>
+            <p class="text-secondary">456 New Street 22000, New York City, USA</p>
+            <h3 class="fw-light">Contact.</h3>
+            <ul>
+              <li class="text-secondary fw-normal"><i class="fa fa-phone"></i>01-0110-0220</li>
+              <li><i class="fa fa-envelope-o"></i><a href="#" class="fw-light">hello@company.co</a></li>
+              <li><i class="fas fa-globe"></i><a href="#" class="fw-light">company.co</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="text-center py-3 my-5">Copyright © 2016 Your Company | Design: <a href="">templatemo</a></p>
+      </div>
+    </footer>
 </body>
 </html>
